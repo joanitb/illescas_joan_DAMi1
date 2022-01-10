@@ -1,0 +1,119 @@
+*{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header{
+    font-size: 1.25rem;
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+ul{
+    height: 3rem;
+    border-top: 2px solid#79766b;
+    border-bottom: 2px solid #79766b;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+li{
+    margin: 0.9rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#7ABA96;
+}
+
+a:focus {
+    text-decoration: none;
+    color:#7ABA96;
+}
+
+a:hover, a:active{
+    text-decoration: none;
+    color:#7ABA96;
+}
+
+.sobremi{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12rem;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+    float: left;
+}
+
+.suscribete{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    width: 15rem;
+    margin: 1rem;
+    padding: 1rem;
+    float: left;
+}
+
+.centrar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonsub{
+    background-color: lightgreen;
+}
+
+footer{
+    background-color: black;
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color:#7ABA96;
+}
+
+footer a:focus {
+    text-decoration: none;
+    color:#7ABA96;
+}
+
+footer a:hover, a:active{
+    text-decoration: none;
+    color:#7ABA96;
+}
