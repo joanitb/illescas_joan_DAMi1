@@ -1,31 +1,104 @@
 *{
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Outfit';
+    margin: auto;
+    /*border: black solid;*/
+}
+
+body{
+    position: sticky;
+    top: 0px;
 }
 
 header{
     font-size: 1.25rem;
+    margin: 1rem;
 }
 
 header img{
     display: block;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
 
 ul{
+    margin-top: 1rem;
     height: 3rem;
     border-top: 2px solid#79766b;
     border-bottom: 2px solid #79766b;
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
+    margin-bottom: 0px;
 }
 
 li{
-    margin: 0.9rem;
     list-style: none;
     text-decoration: none;
     color: black;
+}
+
+nav{
+    margin: 7%
+}
+
+.center{
+    text-align: center;
+}
+
+.date{
+    border-top: 2px solid#7ABA96;
+    border-bottom: 2px solid #7ABA96;
+    text-align: center;
+    font-size: medium;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.sobremi{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: white;
+    width: 8rem;
+    height: auto;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+.suscribete{
+    background-color: lightgray;
+}
+
+.botonsub{
+    background-color: lightgreen;
+    margin-top: 1rem;
+}
+
+.contenedorFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    width: auto;
+    height: 80vh;
+    flex-direction: row;
+}
+
+.contenedorFlex div {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    text-align: center;
+    align-items: normal;
+}
+
+.columnaFlex{
+    flex-direction: column;
+}
+
+.columnaFlex h2{
+    margin: 0.75rem
 }
 
 a{
@@ -53,44 +126,18 @@ a:hover, a:active{
     color:#7ABA96;
 }
 
-.sobremi{
-    position: relative;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 12rem;
-    height: auto;
-    margin: 1rem;
-    padding: 1rem;
-    float: left;
-}
-
-.suscribete{
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightgray;
-    width: 15rem;
-    margin: 1rem;
-    padding: 1rem;
-    float: left;
-}
-
 .centrar{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.botonsub{
-    background-color: lightgreen;
-}
-
 footer{
     background-color: black;
     font-size: 1.75rem;
+    height: 4rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 footer a{
