@@ -4,11 +4,6 @@
     /*border: black solid;*/
 }
 
-body{
-    position: sticky;
-    top: 0px;
-}
-
 header{
     font-size: 1.25rem;
     margin: 1rem;
@@ -37,10 +32,6 @@ header li{
     color: black;
 }
 
-nav{
-    margin: 7%;
-}
-
 .center{
     text-align: center;
 }
@@ -54,6 +45,11 @@ nav{
     margin-bottom: 0.25rem;
 }
 
+div.detalles{
+    text-align: center;
+    font-size: larger;
+}
+
 .sobremi{
     text-align: center;
     margin-top: 5%;
@@ -64,6 +60,27 @@ nav{
     float: left;
     margin-bottom: 1rem;
 }
+
+.pagination {
+    margin: 1rem;
+}
+  
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+  
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}
 
 .suscribete{
     background-color: lightgray;
@@ -76,20 +93,18 @@ nav{
 }
 
 .contenedorFlex {
-    display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     align-content: flex-start;
-    width: auto;
-    height: 80vh;
+    width: 50%;
     flex-direction: row;
 }
 
-.contenedorFlex div {
+.divFlex {
     width: auto;
     height: auto;
     margin: 20px;
+    margin-bottom: 10%;
     text-align: center;
     align-items: normal;
 }
@@ -126,6 +141,10 @@ a:hover, a:active{
     text-decoration: none;
     color:#7ABA96;
 }
+
+.centrarpag{
+    text-align: center;
+  }
 
 .centrar{
     display: block;
